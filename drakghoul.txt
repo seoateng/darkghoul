@@ -179,7 +179,7 @@ define("__ALFA_POST_ENCRYPTION__", (isset($GLOBALS["DB_NAME"]["post_encryption"]
 define("__ALFA_SECRET_KEY__", __ALFA_POST_ENCRYPTION__?_AlfaSecretKey():'');
 $GLOBALS['__ALFA_COLOR__'] = array(
 		"shell_border" => array(
-			"key_color" => "#04aef1ff",
+			"key_color" => "#f10c04ff",
 			"multi_selector" => array(
 				".header" => "border: 7px solid {color}",
 				"#meunlist" => "border-color: {color}",
